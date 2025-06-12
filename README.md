@@ -1,4 +1,3 @@
-
 create FUNCTION [dbo].[IsShamsiLeapYear_Exact](@sy INT)
 RETURNS BIT
 AS
