@@ -9,7 +9,6 @@ BEGIN
         RETURN 1;
     RETURN 0;
 END;
-
 create FUNCTION [dbo].[ShamsiToMiladi](@ShamsiDate NVARCHAR(10))
 RETURNS DATE
 AS
